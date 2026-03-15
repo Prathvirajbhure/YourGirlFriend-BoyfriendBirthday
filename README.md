@@ -8,11 +8,11 @@ A beautifully crafted, interactive web experience designed to celebrate birthday
 
 ##  Experience Features
 
-* ** Immersive Audio:** Dual-track background music support with intuitive play/pause controls triggered by user interaction.
-* ** Interactive Heart:** A pulsing, animated heart that serves as the gateway to the surprise, symbolizing affection through motion.
-* ** Secret Modal:** A hidden "I'm Ready" reveal mechanism that unfolds a personalized, long-form birthday message.
-* ** Direct Response:** Integrated **Formspree** support, allowing your partner to send a reply directly to your email without leaving the site.
-* ** Aesthetic UI:** A soft, romantic gradient palette with responsive typography designed for high emotional impact.
+*  Immersive Audio: Dual-track background music support with intuitive play/pause controls triggered by user interaction.
+*  Interactive Heart: A pulsing, animated heart that serves as the gateway to the surprise, symbolizing affection through motion.
+*  Secret Modal: A hidden "I'm Ready" reveal mechanism that unfolds a personalized, long-form birthday message.
+*  Direct Response: Integrated **Formspree** support, allowing your partner to send a reply directly to your email without leaving the site.
+*  Aesthetic UI: A soft, romantic gradient palette with responsive typography designed for high emotional impact.
 
 ---
 
@@ -85,10 +85,10 @@ This site is static-site ready. For the best experience, I recommend:
 
 ##  Future Roadmap
 
-* [ ] ** Confetti Blast:** Trigger a JS-confetti explosion upon opening the modal.
-* [ ] ** Memory Lane:** A scrollable photo gallery slider.
-* [ ] ** Digital Gift:** Integration with a "virtual gift box" animation.
-* [ ] ** Countdown:** A timer leading up to the exact birth minute.
+* [ ]  Confetti Blast: Trigger a JS-confetti explosion upon opening the modal.
+* [ ]  Memory Lane: A scrollable photo gallery slider.
+* [ ]  Digital Gift: Integration with a "virtual gift box" animation.
+* [ ]  Countdown: A timer leading up to the exact birth minute.
 
 ---
 
