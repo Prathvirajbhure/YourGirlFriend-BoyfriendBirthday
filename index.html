@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Happy Birthday &quot;GirlFriend Name&quot;</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom right, #ffb6c1, #ffe4e1);
+            font-family: 'Segoe UI', sans-serif;
+            text-align: center;
+            color: #800000;
+        }
+
+        .container {
+            padding: 40px 20px;
+        }
+
+        h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 1.2em;
+            max-width: 600px;
+            margin: 20px auto;
+        }
+
+        .heart {
+            font-size: 2em;
+            color: red;
+            animation: pulse 1.5s infinite;
+        }
+
+        .listenpara {
+            font-size: 0.4em;
+        }
+
+        .button {
+            background-color: #ff69b4;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 1em;
+            border-radius: 25px;
+            cursor: pointer;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+            transition: all 0.3s ease;
+            margin-top: 20px;
+        }
+
+        .button:hover {
+            background-color: #ff1493;
+        }
+
+
+
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+            }
+
+            50% {
+                transform: scale(1.2);
+            }
+
+            100% {
+                transform: scale(1);
+            }
+        }
+
+
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 10;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.6);
+            overflow: auto;
+        }
+
+        .modal-content {
+            background: #fff0f5;
+            margin: 15% auto;
+            padding: 30px;
+            border-radius: 20px;
+            width: 80%;
+
+            text-align: center;
+            color: #800000;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+            animation: fadeIn 0.4s ease;
+            overflow: auto;
+
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .close {
+            margin-top: 20px;
+            background-color: #ff69b4;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 15px;
+            cursor: pointer;
+        }
+
+        .close:hover {
+            background-color: #ff1493;
+        }
+    </style>
+</head>
+
+<body>
+    <audio id="song1" autoplay muted loop>
+        <source src="Dhooron.mp3" type="audio/mpeg">
+    </audio>
+
+    <audio id="song2">
+        <source src="Preet re.mp3" type="audio/mpeg">
+    </audio>
+
+
+    <div class="container">
+        <h1>Happy Birthday &quot;Girlfriend&quot; 🎉</h1>
+        <div id="playFirst" class="heart">
+            ❤️
+            <p class="listenpara">Click me to listen</p>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam quas eveniet sed, officiis voluptatem officia
+            quidem minima earum eaque praesentium deserunt nemo culpa iusto reprehenderit doloribus nobis rerum dolores.
+            Unde?</p>
+        </style>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, expedita?</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam dicta similique sed quasi minima quidem
+            nobis, laudantium aliquid facere natus.</p>
+        <button class="button" id="playSecond" onclick="showModal()">I'm ready</button>
+    </div>
+
+
+    <div class="modal" id="myModal">
+        <div class="modal-content">
+            <h2>Yay! 💕</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, ullam. Molestias omnis commodi modi nemo
+                ea necessitatibus nesciunt! Nisi, aut.</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio, expedita.</p>
+
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa, incidunt nihil dolorum in sapiente
+                expedita.
+            </p>
+
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores nesciunt optio eveniet tempora, iste
+                officiis dolore maxime dolorum? Quae hic doloribus ullam consequatur harum eligendi.</p>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ab amet, unde expedita animi illo facere
+                nobis saepe nostrum eos sit quod, perferendis eaque suscipit ducimus odio, fugit veritatis voluptates
+                repellat libero quaerat est officiis tempore officia. Impedit eaque quo quia itaque molestias voluptate,
+                temporibus explicabo at, magni autem culpa odit pariatur esse. Ducimus, minima?</p>
+
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis ut aliquam, quis corrupti, aut
+                consequatur nihil quas iure doloribus, ad quasi repudiandae natus sit sapiente repellendus inventore.
+                Dolor, voluptatibus aliquid?</p>
+
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores maxime ullam cumque, officiis ex earum
+                maiores tenetur nostrum facere, minus laborum unde ipsum.</p>
+
+            <p> What do u think👇❤️</p>
+            <form action="Your formspere link" method="POST">
+                <textarea name="message" rows="4" placeholder="Your reply..." required
+                    style="width: 100%; padding: 10px; border-radius: 10px; resize: none;"></textarea>
+                <button type="submit" class="close" style="margin-top: 15px;" onclick="closeModal()">Send 💌</button>
+            </form>
+
+        </div>
+    </div>
+
+    <script>
+        function showModal() {
+            document.getElementById("myModal").style.display = "block";
+        }
+
+        function closeModal() {
+            document.getElementById("myModal").style.display = "none";
+        }
+        document.getElementById("playSecond").addEventListener("click", () => {
+            const s1 = document.getElementById("song1");
+            const s2 = document.getElementById("song2");
+
+            s2.pause();
+            s1.currentTime = 0;   // optional: restart from beginning
+            s1.muted = false;
+            s1.play();
+        });
+
+
+        // Button to play Song 2
+        document.getElementById("playFirst").addEventListener("click", () => {
+            const s1 = document.getElementById("song1");
+            const s2 = document.getElementById("song2");
+
+            s1.pause();
+            s2.currentTime = 0;   // optional: restart from beginning
+            s2.play();
+        });
+    </script>
+</body>
+
+</html>
