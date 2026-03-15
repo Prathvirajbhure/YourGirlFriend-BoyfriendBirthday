@@ -16,23 +16,9 @@ Perfect for sharing as a special birthday surprise link. ❤️
 	•	💬 Reply input so the person can respond
 	•	📱 Responsive design (works on mobile & desktop)
 
-🚀 How to Use
-	1.	Clone the repository
+** preview
 
-git clone https://github.com/Prathvirajbhure/YourGirlfriend-BoyfriendBirthday.git
-
-	2.	Open the project folder
-
-cd birthday-surprise
-
-	3.	Run the project
-
-Simply open:
-
-index.html
-
-in your browser.
-
+ https://prathvirajbhure.github.io/YourGirlFriend-BoyfriendBirthday/
 ⸻
 
 ✏️ Customize for Your Partner
